@@ -4,29 +4,27 @@
 body {
   margin: 0 auto;
   padding: 0;
-  height: 100%;
-  width: 500px;
+  height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-  background: rgb(224, 131, 131);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: rgb(44, 181, 255);
   overflow: hidden;
 }
 
 /* body header section styles================== */
 
 .headerTitle {
+  margin-top: 10rem;
+  font-size: 1rem;
   text-align: center;
-  margin-top: 2rem;
   color: white;
 }
 
 /* body main section styles================== */
 
 .mainContainer {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -38,13 +36,36 @@ body {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
   padding: 2rem;
-}
-
-.stopWatchDisplay .displayCount {
   display: flex;
   justify-content: center;
   justify-items: center;
+}
+
+.stopWatchDisplay .displayCount {
   font-size: 1.9rem;
   font-weight: bold;
   color: white;
+}
+
+/* stop watch buttons styles===================== */
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  height: 3rem;
+  width: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  background: rgb(44, 181, 255);
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: rgb(91, 91, 91);
+  border: 1px solid white;
 }
