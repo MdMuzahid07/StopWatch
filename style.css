@@ -1,0 +1,50 @@
+/* google font link======================= */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 500px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  background: rgb(224, 131, 131);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* body header section styles================== */
+
+.headerTitle {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+/* body main section styles================== */
+
+.mainContainer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.stopWatchDisplay {
+  height: 100px;
+  width: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.stopWatchDisplay .displayCount {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: white;
+}
